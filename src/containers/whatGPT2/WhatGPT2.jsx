@@ -3,7 +3,7 @@ import './whatGPT2.css';
 
 const WhatGPT2 = () => {
   return (
-    <div className="gpt2__whatgpt2 section__margin" id="whpt2">
+    <div className="gpt2__whatgpt2 section__margin" id="wgpt2">
       <div className="gpt2__whatgpt2-feature">
         <feature title='What is GPT-2' text='We so opinion friends me message friendly bachelor entrance to on by.'/>
       </div>
