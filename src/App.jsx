@@ -1,12 +1,13 @@
-import './App.css'
+import React from 'react';
+import './App.css';
 
-import { Footer, Blog, possibility, Feature, WhatGPT2, Header } from './containers';
+import { Footer, Blog, Possibility, Feature, WhatGPT2, Header } from './containers';
 import { CTA, Brand, Navbar } from './components';
 
 export default function App() {
   return (
     <div className="App">
-      <div clssName="gradient_bg">
+      <div className="gradient_bg">
         <Navbar />
         <Header />
       </div>
@@ -16,10 +17,7 @@ export default function App() {
       <Possibility />
       <CTA />
       <Blog />
-      <Footer />      
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default App
- 
